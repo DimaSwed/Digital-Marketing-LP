@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1024px) {
+	.container {
+		max-width: 1023px;
+	}
+
+	.header__content {
+		padding-left: 20px;
+	}
+	.header__content > h1 {
+		font-size: 2.8em;
+	}
+}
+
+@media only screen and (max-width: 820px) {
+	.container {
+		max-width: 819px;
+	}
+
+	body {
+		font-size: 14px;
+	}
+
+	/* HEADER */
+
+	.header__inner {
+		padding-top: 50px;
+	}
+
+	/* SERVICES */
+
+	.services__inner {
+		padding-top: 50px;
+	}
+
+	.services__flex {
+		grid-gap: 50px 24px;
+	}
+
+	/* TEAM */
+
+	.team {
+		padding-bottom: 100px;
+	}
+
+	.team__inner {
+		padding-top: 100px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		max-width: 767px;
+	}
+
+	/* HEADER */
+
+	.header__content > h1 {
+		font-size: 3.3em;
+		line-height: 50px;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.container {
+		max-width: 539px;
+	}
+
+	/* HEADER */
+
+	.header__content > h1 {
+		font-size: 2em;
+		line-height: 33px;
+		margin-bottom: 15px;
+	}
+
+	.header__content > p {
+		line-height: 20px;
+		letter-spacing: 0px;
+		margin-bottom: 15px;
+	}
+	/* SERVICES */
+	.services__content > p {
+		margin-bottom: 50px;
+	}
+
+	/* TEAM */
+
+	.team {
+		padding-bottom: 50px;
+	}
+
+	.team__inner {
+		padding-top: 50px;
+	}
+
+	.team__content > p {
+		line-height: 24px;
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.container {
+		max-width: 429px;
+	}
+	/* HEADER */
+
+	.header__content > button {
+		margin-bottom: 15px;
+	}
+
+	/* SERVICES */
+
+	.services__inner {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/* TEAM */
+
+	.team__inner {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.container {
+		max-width: 374px;
+	}
+
+	body {
+		font-size: 12px;
+	}
+
+	/* HEADER */
+
+	.header__content > h1 {
+		font-size: 2em;
+		line-height: 27px;
+		margin-bottom: 10px;
+	}
+
+	.header__content > p {
+		line-height: 15px;
+		margin-bottom: 10px;
+	}
+
+	.header__content > button {
+		width: 140px;
+		height: 40px;
+		line-height: 20px;
+		letter-spacing: 0px;
+	}
+}
